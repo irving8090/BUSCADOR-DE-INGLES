@@ -1,0 +1,64 @@
+body{
+    background-color: white;
+    display: flexbox;
+}
+
+@font-face {
+    font-family: FuenteCI;
+    src: url(../Reach\ Story.ttf);
+}
+
+#titulos{
+    font-size: 80px;
+    color: darkblue;
+    text-shadow: rgb(255, 233, 63) 6px 1px 1px;
+    font-family: FuenteCI;
+}
+
+
+#lblemail{
+    font-size: 30px;
+    font-family: cursive;
+    color: darkblue;
+    text-shadow: darkgreen 1.2px 1px 4px;
+}
+#lblpassword{
+    font-size: 30px;
+    font-family: cursive;
+    color: darkblue;
+    text-shadow: darkgreen 1.2px 1px 4px;
+}
+
+#btnAdmin{
+    border-radius: 5px;
+    background-color: lightblue;
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 20px;
+    color:darkblue;
+    border: none;
+} #btnAdmin:hover{
+    background-color: darkblue;
+    color:lightblue;
+    cursor: pointer;
+}
+
+#correo,#pass,#btnAdmin,#btnRegresar{
+    font-family: cursive;
+    position: relative;
+    border-style: hidden;
+    border-bottom: 2px solid grey;
+    text-align: center;
+}
+
+#pie{
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 5%;
+    font-family: FuenteCI;
+    color: green;
+    word-spacing: 6px;
+    letter-spacing: 8px;
+    position: relative;
+}
